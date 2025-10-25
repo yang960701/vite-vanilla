@@ -12,7 +12,7 @@ import { Box, Title } from "@mantine/core";
 import { data, type Person } from "./makeData";
 import { useMediaQuery } from "@mantine/hooks";
 
-const Example = () => {
+const Draging = () => {
   const columns = useMemo<MRT_ColumnDef<Person>[]>(
     () => [
       {
@@ -125,4 +125,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default Draging;
